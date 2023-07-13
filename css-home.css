@@ -1,0 +1,86 @@
+
+		body {
+			background-image: url("media/background1.png");
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+			margin: 0;
+			padding: 0;
+		}
+
+
+		/* Heading */
+		h1 {
+			background-color: purple;
+			text-decoration: underline;
+			text-align: center;
+			margin: 0;
+			padding: 10px;
+		}
+
+
+		/* Top Navigation Bar */
+		.topnav {
+			overflow: hidden;
+			background-color: grey;
+		}
+
+		.topnav a {
+			float: left;
+			display: block;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		.topnav a:hover {
+			background-color: #ddd;
+			color: black;
+		}
+
+		/* Container */
+		.container {
+			display: flex;
+			min-height: calc(100vh - 200px);
+		}
+
+		/* Sidebar Section */
+		.sidebar {
+			background-color: #00FFFF;
+			width: 25%;
+			padding: 20px;
+			box-sizing: border-box;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: flex-start;
+		}
+
+		/* Main Section */
+		.main {
+			background-color: #FAEBD7;
+			width: 75%;
+			padding: 20px;
+			box-sizing: border-box;
+			display: flex;
+			align-items: flex-start; 
+			justify-content: flex-start; 
+		}
+
+
+		/* Footer */
+		.footer {
+			padding: 20px;
+			text-align: center;
+			background: grey;
+		}
+
+
+		article {
+ 			 float: left;
+ 			 padding: 20px;
+ 			 width: 80%;
+ 			 background-color: #f1f1f1;
+ 			 height: 500px;
+			}
